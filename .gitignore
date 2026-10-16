@@ -9,4 +9,9 @@ build/
 android/local.properties
 .metadata
 *.log
-lib/config/env.dart
+
+# Secrets (any env.dart, even inside nested folders)
+**/config/env.dart
+
+# Not needed in the repo
+lib.zip
